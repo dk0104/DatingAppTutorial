@@ -16,6 +16,6 @@ services:
       context: .
       dockerfile: DatingApp.API/Dockerfile
     environment: 
-      DBServer:"ms-sql-server"
+      DBServer: "ms-sql-server"
     ports:
       - 8080:80

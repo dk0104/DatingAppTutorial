@@ -1,3 +1,14 @@
 DatingApp.API/obj/DatingApp.API.csproj.nuget.dgspec.json
 DatingApp.API/obj/project.assets.json
 DatingApp.API/obj/project.nuget.cache
+*.dll
+DatingApp.API/Migrations/*
+DatingApp.API/obj/*
+*.exe
+DatingApp.API/bin/Debug/netcoreapp3.1/DatingApp.API.deps.json
+DatingApp.API/bin/Debug/netcoreapp3.1/appsettings.Development.json
+DatingApp.API/bin/Debug/netcoreapp3.1/DatingApp.API.pdb
+DatingApp.API/bin/Debug/netcoreapp3.1/appsettings.json
+DatingApp.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+DatingApp.API/bin/Debug/netcoreapp3.1/DatingApp.API.runtimeconfig.json
+DatingApp.API/bin/Debug/netcoreapp3.1/DatingApp.API.runtimeconfig.dev.json

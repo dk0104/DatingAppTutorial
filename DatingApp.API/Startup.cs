@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using DatingApp.API.Data;
 
 namespace DatingApp.API
 {
@@ -33,6 +34,7 @@ namespace DatingApp.API
 
             services.AddControllers();
             services.AddCors();
+            services.AddScoped<IAuthRepository,AuthRepository>();
 
             // services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }

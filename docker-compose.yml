@@ -6,7 +6,7 @@ services:
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu 
     environment: 
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: "Pa55w0rd"
+      SA_PASSWORD: "pass3321PASS"
       MSSQL_PID: Express
     ports: 
       - 1433:1433
@@ -17,5 +17,6 @@ services:
       dockerfile: DatingApp.API/Dockerfile
     environment: 
       DBServer: "ms-sql-server"
+      DBPassword: "pass3321PASS"
     ports:
       - 8080:80

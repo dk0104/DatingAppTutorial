@@ -20,3 +20,4 @@ services:
       DBPassword: "pass3321PASS"
     ports:
       - 8080:80
+      # Actual state
